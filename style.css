@@ -1,6 +1,8 @@
 html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
+
+/* ----MOBILE SCREEN--------------- */
     body {
         background: #FAFAFA;
         font-family: 'Montserrat', sans-serif;
@@ -51,7 +53,7 @@ html { box-sizing: border-box; }
         flex-flow: column;
         justify-content: center;
         align-items: center;
-        padding: 20px;;
+        padding: 20px;
                }
 
 
@@ -88,3 +90,9 @@ html { box-sizing: border-box; }
             align-items: center;
             flex-direction: column;
        }
+/* ----TABLET SCREEN--------------- */
+@media screen and (min-width: 640px)
+{}
+/* -----PC SCREEN--------------- */
+@media screen and (min-width: 1100px)
+{}
