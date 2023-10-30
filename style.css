@@ -6,16 +6,25 @@ html { box-sizing: border-box; }
     body {
         background: #FAFAFA;
         font-family: 'Montserrat', sans-serif;
-        padding: 20px;
+        padding: 60px 20px 57px 20px;
     }
-    
-    h2{text-align: center;
+
+    h1 {font-size: 28px;
+        font-family: 'Montserrat Medium', sans-serif;
 
     }
-    p {
+
+    h2 {font-family: 'Montserrat Medium', sans-serif;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    p {font-family: 'Montserrat Light', sans-serif;
+        font-size: 16px;
         color: #8B8B8B;
         text-align: center;
         }
+
     .podtrzitko{
         background-color: #407BFF;
         width: 60px;
@@ -30,10 +39,12 @@ html { box-sizing: border-box; }
         border-radius: 20px;
         background-color: #407BFF;
         text-align: center;
+        font-family: 'Montserrat Regular', sans-serif;
         font-size: 14px;
-        padding: 10px;
+        padding-top: 10px;
         margin-bottom: 15px;
-    }
+            }
+
     .tlacitko2 {
         background-color: #8B8B8B;
         width: 220px;
@@ -42,9 +53,8 @@ html { box-sizing: border-box; }
     .tlacitko:hover{
         background-color: #4265af;
     }
-     .tlacitko2:hover{
+    .tlacitko2:hover{
         background-color: #303a3c;
-
     }
 
   
@@ -57,11 +67,10 @@ html { box-sizing: border-box; }
                }
 
 
- .flex{
+    .flex{
         display: flex;
         padding: 32px 20px 20px 0px;
-
-    }
+        }
 
     .ikonka{
       margin: 20px;
@@ -83,16 +92,82 @@ html { box-sizing: border-box; }
         margin-bottom: 15px;
         text-align: left;
         align-items: center;
-       }
+            }
+
+         /*<-------urobene navyse------->*/
+         .boxik:hover{
+            box-shadow: 3px 8px 10px #2d6df81f;
+            background-color: #f3f3f3;
+         }
 
        .nadpis1{
             display: flex;
             align-items: center;
             flex-direction: column;
+            flex-shrink: 1;
        }
+        .nadpisxy {margin: 20px;
+            
+        }
+
+       .main{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+       }
+
 /* ----TABLET SCREEN--------------- */
 @media screen and (min-width: 640px)
-{}
+
+    { 
+        .flexbox {
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 20px;
+                }
+        .flexboxik2{
+            flex-direction: column;
+            width: 550px;
+                }
+        .boxik{
+            width: 230px;
+            height: 172px;
+                 }
+
+ 
+}
 /* -----PC SCREEN--------------- */
 @media screen and (min-width: 1100px)
-{}
+
+{
+    .flexbox{ 
+        flex-direction: row;
+    }
+  
+        .map{order:3;}
+        .cactus{order: 4;}
+        .plane{order: 5;}
+        .polozka6{order: 6;}
+        
+        .palm{order:8;}
+        .umbrella{order:9;}
+        .rv{order: 10;}
+
+
+    .obr{order: 2;}
+
+    .obsahuvodu{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 400px;
+        order: 1;
+        align-items: flex-start;}
+     
+
+
+}
+
+
+
+
+}
