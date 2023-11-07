@@ -142,16 +142,56 @@ html { box-sizing: border-box; }
 {
     .flexbox{ 
         flex-direction: row;
-    }
+            }
   
-        .map{order:3;}
-        .cactus{order: 4;}
-        .plane{order: 5;}
-        .polozka6{order: 6;}
+        .map{
+            order:3;
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            padding: 15px;
+            }
+        .cactus{
+            order: 4;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 15px;
+            }
+        .plane{
+            order: 5;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+            }
+        .polozka6{
+            order: 6;
+                 }
         
-        .palm{order:8;}
-        .umbrella{order:9;}
-        .rv{order: 10;}
+        .palm{
+            order:8;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+            
+        }
+
+        .umbrella{
+            order:9;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+            }
+        .rv{
+            order: 10;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+            }
 
 
     .obr{order: 2;}
@@ -162,7 +202,29 @@ html { box-sizing: border-box; }
         flex-basis: 400px;
         order: 1;
         align-items: flex-start;}
-     
 
+    .dvetlacitka{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 15px;
+    }
 
-}
+    .text{
+        text-align: left;
+        }
+
+    .nadpis1{
+        align-items: flex-start;
+        }
+
+    .flexboxik2{
+        padding: 15px;
+    }
+
+    .boxik{
+        width: 190px;
+        height: 200px;
+    }
+
+   }
