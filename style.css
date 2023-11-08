@@ -7,17 +7,28 @@ html { box-sizing: border-box; }
         background: #FAFAFA;
         font-family: 'Montserrat', sans-serif;
         padding: 60px 20px 57px 20px;
-    }
+        }
+    .obsahuvodu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+    .dvetlacitka{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+         }
 
     h1 {font-size: 28px;
         font-family: 'Montserrat Medium', sans-serif;
-
-    }
+          }
 
     h2 {font-family: 'Montserrat Medium', sans-serif;
         font-size: 16px;
         text-align: center;
-    }
+        }
 
     p {font-family: 'Montserrat Light', sans-serif;
         font-size: 16px;
@@ -29,8 +40,7 @@ html { box-sizing: border-box; }
         background-color: #407BFF;
         width: 60px;
         height: 2px;
-        
-    }
+             }
 
     .tlacitko{
         color: #ffffff;
@@ -41,22 +51,28 @@ html { box-sizing: border-box; }
         text-align: center;
         font-family: 'Montserrat Regular', sans-serif;
         font-size: 14px;
-        padding-top: 10px;
-        margin-bottom: 15px;
+        padding: 11px 31px 11px 30px;
             }
 
     .tlacitko2 {
         background-color: #8B8B8B;
         width: 220px;
-    }
-    /*<-------urobene navyse------->*/
-    .tlacitko:hover{
-        background-color: #4265af;
-    }
-    .tlacitko2:hover{
-        background-color: #303a3c;
+             }
+
+    .kocky{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
+    /*<-------urobene navyse---zafarbenie---->*/
+    .tlacitko:hover{
+        background-color: #4265af;
+                }
+    .tlacitko2:hover{
+        background-color: #303a3c;
+                 }
+    /*<-------dalsia cast---->*/
   
     .flexbox{
         display: flex;
@@ -66,7 +82,6 @@ html { box-sizing: border-box; }
         padding: 20px;
                }
 
-
     .flex{
         display: flex;
         padding: 32px 20px 20px 0px;
@@ -74,8 +89,7 @@ html { box-sizing: border-box; }
 
     .ikonka{
       margin: 20px;
-       
-    }
+           }
 
     .obr{
         margin: 10px;
@@ -94,27 +108,26 @@ html { box-sizing: border-box; }
         align-items: center;
             }
 
-         /*<-------urobene navyse------->*/
-         .boxik:hover{
+        .boxik:hover{
             box-shadow: 3px 8px 10px #2d6df81f;
             background-color: #f3f3f3;
-         }
+            }
 
        .nadpis1{
             display: flex;
             align-items: center;
             flex-direction: column;
             flex-shrink: 1;
-       }
+            }
         .nadpisxy {margin: 20px;
-            
-        }
+            }
 
        .main{
         display: flex;
         flex-direction: column;
-        padding: 20px;
-       }
+              }
+            
+      
 
 /* ----TABLET SCREEN--------------- */
 @media screen and (min-width: 640px)
@@ -134,17 +147,22 @@ html { box-sizing: border-box; }
             height: 172px;
                  }
 
- 
-}
+        .dvetlacitka{
+            display: flex;
+            flex-direction:row;
+            gap: 20px;
+               }
+
+        .kocky{
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                        }
+        }
 /* -----PC SCREEN--------------- */
 @media screen and (min-width: 1100px)
 
-{
-    .flexbox{ 
-        flex-direction: row;
-        text-align: left;
-            }
-  
+{       
         .map{
             order:3;
             display: flex;
@@ -202,8 +220,9 @@ html { box-sizing: border-box; }
         flex-direction: column;
         flex-basis: 400px;
         order: 1;
-        align-items: flex-start;}
-
+        align-items: flex-start;
+      
+            }
     .dvetlacitka{
         display: flex;
         flex-direction: row;
@@ -214,22 +233,31 @@ html { box-sizing: border-box; }
     .text{
         text-align: left;
         font-size: 16px;
-        }
+         }
 
     .nadpis1{
         align-items: flex-start;
-        }
+             }
 
     .flexboxik2{
         padding: 15px;
-    }
+                     }
 
     .boxik{
         width: 170px;
         height: 191px;
         font-size: 13px;
-    }
-.odstavec{
+          }
+    .odstavec{
     font-size: 16px;
-}
-   }
+             }
+    .flexbox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        padding: 0 80px 0 0;       
+        }
+ .celok{
+    padding: 60px 80px 59px 80px;
+ }
+     }
